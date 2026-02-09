@@ -132,6 +132,14 @@ graph LR
 ```
 
 ---
+<img width="1919" height="860" alt="Screenshot 2026-02-09 160917" src="https://github.com/user-attachments/assets/f88ab754-df49-41cf-908a-e80841a1fd34" />
+
+<img width="1513" height="728" alt="Screenshot 2026-02-09 160935" src="https://github.com/user-attachments/assets/cbdb0d14-5cb0-4e70-b2aa-893c9fd16bd1" />
+
+<img width="1521" height="531" alt="Screenshot 2026-02-09 160948" src="https://github.com/user-attachments/assets/44997475-8a6e-4af4-bdb5-1b22e10f4e7e" />
+
+<img width="1516" height="741" alt="Screenshot 2026-02-09 161006" src="https://github.com/user-attachments/assets/db8b89eb-7e14-4dc4-b7ca-4b28a338765a" />
+
 
 ## 🔮 Future Roadmap
 *   **Infrastructure as Code (IaC):** Migrate Python scripts to Terraform for state-managed infrastructure.

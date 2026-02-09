@@ -14,37 +14,7 @@ This project enables organizations to avoid vendor lock-in, optimize for cost/pe
 *   **Automated Deployment Pipelines:** Python scripts using cloud SDKs to automate model registration and endpoint creation.
 *   **Monitoring Dashboard:** Interactive Streamlit app for visualizing cross-cloud metrics.
 
-## 2. Objectives
-*   **Compare Cloud AI Platforms:** Evaluate the ease of deployment and management across different vendors.
-*   **Analyze Cost & Performance:** Benchmark latency and operational costs to make informed deployment decisions.
-
-## 3. Problem Statement
-Vendor lock-in and inconsistent performance across providers are significant challenges in single-cloud deployments. Multi-cloud strategies help mitigate these risks.
-
-## 4. Requirements
-*   **AWS:** SageMaker
-*   **GCP:** Vertex AI
-*   **Azure:** Azure AI Studio / Machine Learning Service
-*   **Tools:** Docker, Python, FastAPI, Streamlit
-
-## 5. System Architecture
-```mermaid
-graph LR
-    A[Unified Model Container] --> B[AWS SageMaker]
-    A --> C[GCP Vertex AI]
-    A --> D[Azure AI Studio]
-    B --> E[Monitoring Dashboard]
-    C --> E
-    D --> E
-```
-*   **Unified Model:** A standardized containerized model.
-*   **Deployment Pipelines:** Cloud-specific automation scripts.
-*   **Monitoring Dashboard:** A central view for performance and cost metrics.
-
-## 6. Methodology
-1.  **Standardize Model Container:** Package the model using Docker and FastAPI.
-2.  **Deploy on Each Cloud:** Use SDKs (Boto3, Google Cloud AI Platform, Azure ML SDK) to deploy the container.
-3.  **Measure Metrics:** Send test requests and log response times and billing data.
+---
 
 ## 📂 Project Structure
 
@@ -65,6 +35,8 @@ graph LR
 ├── requirements.txt          # Python dependencies
 └── README.md                 # Project documentation
 ```
+
+---
 
 ## ⚙️ Setup & Installation
 
@@ -167,5 +139,4 @@ graph LR
 *   **Automated Failover:** Logic to automatically switch providers if error rates spike.
 
 ---
-*Built with ❤️ by Antigravity AI*
 

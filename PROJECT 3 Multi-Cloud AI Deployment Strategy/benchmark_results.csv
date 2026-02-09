@@ -1,0 +1,31 @@
+Provider,Status,Total Latency (ms),Processing Time (ms),Sentiment,Confidence
+AWS SageMaker,Success,2431.87,130.53,Positive,0.7785
+Azure AI Studio,Success,2546.61,110.44,Positive,0.7198
+GCP Vertex AI,Success,2706.45,104.32,Positive,0.8256
+AWS SageMaker,Success,2157.15,98.71,Positive,0.8578
+GCP Vertex AI,Success,2286.13,125.78,Positive,0.7609
+Azure AI Studio,Success,2427.32,130.75,Positive,0.7515
+AWS SageMaker,Success,2138.96,85.67,Positive,0.7602
+GCP Vertex AI,Success,2230.81,78.96,Positive,0.7365
+Azure AI Studio,Success,2339.36,98.1,Positive,0.8431
+AWS SageMaker,Success,2175.14,115.36,Positive,0.8805
+GCP Vertex AI,Success,2255.12,72.41,Positive,0.8622
+Azure AI Studio,Success,2396.94,142.56,Positive,0.8605
+AWS SageMaker,Success,2158.48,125.13,Positive,0.8339
+GCP Vertex AI,Success,2305.28,144.36,Positive,0.7585
+Azure AI Studio,Success,2368.48,61.84,Positive,0.8006
+GCP Vertex AI,Success,2111.34,65.83,Positive,0.8863
+Azure AI Studio,Success,2243.57,118.22,Positive,0.8244
+AWS SageMaker,Success,2357.5,99.42,Positive,0.947
+AWS SageMaker,Success,2204.47,148.23,Positive,0.872
+Azure AI Studio,Success,2375.07,145.67,Positive,0.8644
+GCP Vertex AI,Success,2495.1,101.77,Positive,0.8714
+AWS SageMaker,Success,2197.14,130.42,Positive,0.7459
+Azure AI Studio,Success,2294.67,98.8,Positive,0.8037
+GCP Vertex AI,Success,2408.81,94.12,Positive,0.8826
+GCP Vertex AI,Success,2167.15,115.08,Positive,0.8463
+Azure AI Studio,Success,2298.43,126.96,Positive,0.8876
+AWS SageMaker,Success,2379.71,58.92,Positive,0.8485
+GCP Vertex AI,Success,2203.05,146.76,Positive,0.7657
+AWS SageMaker,Success,2274.34,60.27,Positive,0.833
+Azure AI Studio,Success,2428.06,148.41,Positive,0.8973

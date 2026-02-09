@@ -1,0 +1,37 @@
+{
+    "default": "org_internal",
+    "organizations": {
+        "org_internal": {
+            "description": "Internal Development Environment",
+            "aws": {
+                "role_arn": "arn:aws:iam::123456789012:role/service-role/AmazonSageMaker-ExecutionRole",
+                "region": "us-east-1"
+            },
+            "gcp": {
+                "project_id": "internal-dev-project",
+                "region": "us-central1"
+            },
+            "azure": {
+                "subscription_id": "sub-id-internal",
+                "resource_group": "rg-internal-dev",
+                "workspace": "ws-internal"
+            }
+        },
+        "org_client_a": {
+            "description": "Client A Production Environment",
+            "aws": {
+                "role_arn": "arn:aws:iam::987654321098:role/ClientASageMakerRole",
+                "region": "us-west-2"
+            },
+            "gcp": {
+                "project_id": "client-a-prod",
+                "region": "europe-west1"
+            },
+            "azure": {
+                "subscription_id": "sub-id-client-a",
+                "resource_group": "rg-client-a",
+                "workspace": "ws-client-a"
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+pydantic
+requests
+transformers
+scikit-learn
+pandas
+streamlit
+boto3
+google-cloud-aiplatform
+azure-ai-ml
+plotly
